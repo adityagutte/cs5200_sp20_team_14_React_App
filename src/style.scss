@@ -1,0 +1,74 @@
+$background-color-dark: #292A32;
+$background-color-light: #FBFAF8;
+$complimentary-color-dark: #393B43;
+$complimentary-color-light: #FEFFFF;
+
+body {
+  background-color: $background-color-light;
+  color: $background-color-dark;
+}
+
+body.dark-mode {
+  background-color: $background-color-dark;
+  color: $background-color-light;
+}
+
+.logout {
+  color: red;
+  text-decoration: none;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#table001 {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#table001 td, #table001 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table001 tr:nth-child(even){background-color: gainsboro;}
+
+#table001 tr:hover {background-color: #ddd;}
+
+#table001 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+}
+
+#table002 {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#table002 td, #table001 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table002 tr:nth-child(even){background-color: gainsboro;}
+
+#table002 tr:hover {background-color: #ddd;}
+
+#table002 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+}
